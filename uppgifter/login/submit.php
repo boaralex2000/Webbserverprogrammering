@@ -9,4 +9,15 @@
 	
 	mysqli_query($dbc,$query);
     
+    $result = mysqli_query($dbc,$query);
+
+    if($row = mysqli_fetch_array($result)) {
+		
+		echo "Successfully logged in!";
+		
+	}
+    else {
+        echo "Wrong Name or Password, Try again!";
+    }
+
 ?>
