@@ -1,0 +1,17 @@
+.container {
+	font-size: 20px;
+	line-height: 25px;
+	width: 960px;
+	height: 480px;
+	margin: auto;
+}
+
+#l1b, #l2b, #l3b, #l4b, #l5b, #l6b {
+	float: right;
+	margin-right: 300px;
+}
+
+#l1a, #l2a, #l3a, #l4a, #l5a, #l6a {
+	float: left;
+	margin-left: 300px;
+}
